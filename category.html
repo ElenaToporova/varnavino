@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Varnavino bread</title>
+  <!-- подключаем шрифты -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <!-- подключаем стили -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <!-- <link rel="stylesheet" href="styles/hamburgers.css"> -->
+   <!-- <link rel="stylesheet" href="styles/responsive.css"> -->
+   <!-- <script src="./index.js"></script> -->
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+</head>
+
+<body>
+    <div class="container">
+      <!-- шапка сайта -->
+      <header>
+        <div class="one-line d-flex">
+          <a href="index.html"><p class="one-line__logo">  П.О. “Варнавинский <br> хлебозавод”</p></a>
+          <p class="one-line__deviz"> Создавая свою продукцию, <br> мы заботимся о вашем <br> здоровье!</p> 
+          <img class="one-line__gerb" src="images/gerb.jpg" alt="герб">
+        </div>
+        <div class="second-line d-flex">
+          <!-- меню -->
+          <nav class="second-line__menu">
+            <ul class="main-menu d-flex">
+              <li> <a href="history.html">О нас</a></li>
+              <li> <a href="category.html"> Продукция</a></li>
+              <li> <a href="partners.html"> Партнерам </a></li>
+              <li> <a href="contacts.html"> Контакты </a></li>
+            </ul>
+          </nav>
+          <a class="second-line__tel" href="tel.+7 (83158) 3-51-38"> +7 (83158) 3-51-38 </a>
+        </div>
+        <img class="header_banner" src="images/header_banner.jpg" alt="хлебушек">
+      </header>
+        <!-- основной контент -->
+        <h1 class="title">Продукция</h1>
+        <section class="product-item">
+            <h3>Хлебобулочные изделия </h3>
+            <div class="d-flex product-item__block">
+                <img src="images/baranki.jpg" alt="наши баранки">
+                <p class="product-item__text">Хлебобулочные изделия являются продуктом номер один, основой питания. Современный ассортимент хлеб обулочных изделий разноообразен. Хлебобулочные изделия обладают постоянной, не снижающейся при ежедневном употреблении усвояемостью, что связано с их строением, консистенцией и химическим составом.</p>
+            </div>
+            <a href="doc/buns.doc" download>Скачать прайс хлебобулочных изделий</a>
+        </section>
+        <section class="product-item">
+            <h3>Хлеб традиционный и разных сортов </h3>
+            <div class="d-flex product-item__block">
+                <img src="images/bread.jpg" alt="наш хлеб">
+                <p class="product-item__text">Благодаря обширному ассортименту хлеб разных сортов нельзя оценить ту пользу, которую он оказывает на весь организм человека. Наши изделия  - это источник углеводов, пищевых волокон, витаминов, в том числе, группы В, микро- и макроэлементов, таких как магний, селен, железо.</p>
+            </div>
+            <a href="doc/bread.doc" download>Скачать прайс хлеба</a>
+        </section>
+        <section class="product-item">
+            <h3>Пироги </h3>
+            <div class="d-flex product-item__block">
+                <img src="images/pirog.jpg" alt="наши пироги">
+                <p class="product-item__text">Пироги издревле считались исконно русским блюдом олицетворяющим гостеприимство и любовь.  Историки предполагают, что пироги появились в те времена, когда хлеб использовали в качестве посуды.  Пироги это неотъемлемая часть нашей русской культуры. </p>
+            </div>
+            <a href="doc/pies.doc" download>Скачать прайс пирогов</a>
+        </section>
+        <section class="product-item">
+            <h3>Кондитерские изделия </h3>
+            <div class="d-flex product-item__block" >
+                <img src="images/cake.jpg" alt="наши тортики">
+                <p class="product-item__text">Кондитерские изделия занимают значительную долю в общем объеме производства кондитерской продукции и представлены широким ассортиментом. Большинство из них характеризуется привлекательным внешним видом, достаточно высокой энергетической ценностью, кроме углеводов и жиров, включают также белки.</p>
+            </div>
+            <a href="doc/cake.doc" download>Скачать прайс кондитерских изделий</a>
+        </section>
+        <div class="button price-button">
+            <a class="price-button__link" href="doc/all-price.doc" download>Скачать полный прайс</a>
+        </div>
+    </div> 
+  <!-- подвал сайта -->
+  <footer>
+    <div class="container d-flex">
+      <div class="footer__text">
+        <p>ПРЕДПРИЯТИЯ РЯДОМ: ВАРНАВИНСКОЕ ПО, МБУ ДО ДШИ, МУП ВАРНАВИНСКАЯ ТИПОГРАФИЯ, П.О.ВАРНАВИНСКИЙ РАЙКООПЗАГОТПРОМ </p>
+        <p>НИЖЕГОРОДСКАЯ ОБЛАСТЬ, Р-Н ВАРНАВИНСКИЙ, РП ВАРНАВИНО, УЛ. ЛЕСНАЯ, Д.33 </p>
+      </div>
+      <div class="social">
+        <p class="social__text">Мы в социальных сетях</p>
+        <div class="icon d-flex">
+          <a class="ok" href="">
+            <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M87.5 77.0833C87.5 82.8375 82.8375 87.5 77.0833 87.5H22.9167C17.1646 87.5 12.5 82.8375 12.5 77.0833V22.9167C12.5 17.1625 17.1646 12.5 22.9167 12.5H77.0833C82.8375 12.5 87.5 17.1625 87.5 22.9167V77.0833Z" fill="#0288D1"/>
+              <path d="M66.4438 51.3191C64.9105 49.6462 62.8584 48.5462 60.3042 48.0024L58.8834 47.7837C60.6626 47.0337 62.0522 45.8691 63.0626 44.2753C64.0751 42.6878 64.5834 40.8837 64.5834 38.8462C64.5834 29.167 51.8834 29.167 48.8459 29.167H35.4167V70.8337H52.2063C55.0834 70.8337 57.4397 70.5691 59.3022 70.0503C61.1709 69.5253 62.8876 68.6482 64.4438 67.4232C65.7563 66.3899 66.8063 65.1024 67.5792 63.5357C68.3605 61.967 68.7501 60.1441 68.7501 58.0732C68.7501 55.242 67.9792 52.992 66.4438 51.3191ZM45.8334 37.5003H49.6292C49.6292 37.5003 54.173 37.3691 54.173 41.667C54.173 45.9649 49.7605 45.8337 49.7605 45.8337H45.8334V37.5003ZM51.9938 62.5003C50.9605 62.5441 49.098 62.517 46.3938 62.517H45.8334V52.0837H52.173C53.2751 52.1128 58.3334 51.917 58.3334 57.2087C58.3334 62.5003 53.0272 62.4628 51.9938 62.5003Z" fill="white"/>
+            </svg>            
+          </a>
+          <a class="ok" href="">
+             <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M87.5 77.0833C87.5 82.9167 82.9167 87.5 77.0833 87.5H22.9167C17.0833 87.5 12.5 82.9167 12.5 77.0833V22.9167C12.5 17.0833 17.0833 12.5 22.9167 12.5H77.0833C82.9167 12.5 87.5 17.0833 87.5 22.9167V77.0833Z" fill="#FF9800"/>
+              <path d="M56.0416 63.333C59.1666 62.708 62.0833 61.458 64.5833 59.7913C66.6666 58.5413 67.2916 55.833 66.0416 53.7497C64.7916 51.6663 62.0833 51.0413 59.9999 52.2913C53.9583 56.0413 46.0416 56.0413 39.9999 52.2913C37.9166 51.0413 35.2083 51.6663 33.9583 53.7497C32.7083 55.833 33.3333 58.5413 35.4166 59.7913C38.1249 61.458 41.0416 62.708 43.9583 63.333L35.6249 71.6663C33.9583 73.333 33.9583 76.0413 35.6249 77.9163C36.4583 78.7497 37.4999 79.1663 38.7499 79.1663C39.7916 79.1663 41.0416 78.7497 41.8749 77.9163L49.9999 69.7913L58.1249 77.9163C59.7916 79.583 62.4999 79.583 64.3749 77.9163C66.0416 76.2497 66.0416 73.5413 64.3749 71.6663L56.0416 63.333ZM49.9999 20.833C41.8749 20.833 35.4166 27.2913 35.4166 35.4163C35.4166 43.5413 41.8749 49.9997 49.9999 49.9997C58.1249 49.9997 64.5833 43.5413 64.5833 35.4163C64.5833 27.2913 58.1249 20.833 49.9999 20.833ZM49.9999 41.6663C46.4583 41.6663 43.7499 38.958 43.7499 35.4163C43.7499 31.8747 46.4583 29.1663 49.9999 29.1663C53.5416 29.1663 56.2499 31.8747 56.2499 35.4163C56.2499 38.958 53.5416 41.6663 49.9999 41.6663Z" fill="white"/>
+            </svg>   
+          </a>        
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

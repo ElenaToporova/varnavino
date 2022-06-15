@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Varnavino bread</title>
+  <!-- подключаем шрифты -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <!-- подключаем стили -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <!-- <link rel="stylesheet" href="styles/hamburgers.css"> -->
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- <link rel="stylesheet" href="styles/responsive.css"> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div class="container">
+      <!-- шапка сайта -->
+      <header>
+        <div class="one-line d-flex">
+          <a href="index.html"><p class="one-line__logo">  П.О. “Варнавинский <br> хлебозавод”</p></a>
+          <p class="one-line__deviz"> Создавая свою продукцию, <br> мы заботимся о вашем <br> здоровье!</p> 
+          <img class="one-line__gerb" src="images/gerb.jpg" alt="герб">
+        </div>
+        <div class="second-line d-flex">
+          <!-- меню -->
+          <nav class="second-line__menu">
+            <ul class="main-menu d-flex">
+              <li> <a href="history.html">О нас</a></li>
+              <li> <a href="category.html"> Продукция</a></li>
+              <li> <a href="partners.html"> Партнерам </a></li>
+              <li> <a href="contacts.html"> Контакты </a></li>
+            </ul>
+          </nav>
+          <a class="second-line__tel" href="tel.+7 (83158) 3-51-38"> +7 (83158) 3-51-38 </a>
+        </div>
+        <img class="header_banner" src="images/header_banner.jpg" alt="хлебушек">
+      </header>
+        <!-- основной контент -->
+      <h1>Мы стремимся быть лучше и всегда готовы <br> к сотрудничеству!</h1>
+      <div class="contact-info">
+        <p>Полное юридическое наименование: ПОТРЕБИТЕЛЬСКОЕ ОБЩЕСТВО "ВАРНАВИНСКИЙ ХЛЕБОЗАВОД"</p>
+        <p>Руководитель: ПРЕДСЕДАТЕЛЬ ПРАВЛЕНИЯ ИЗГАЧЕВА ЕЛЕНА АЛЕКСАНДРОВНА</p>
+        <p>Индекс 606760</p>
+        <p>Адрес: НИЖЕГОРОДСКАЯ ОБЛ.,PП ВАРНАВИНО,УЛ. ЛЕСНАЯ 33.  </p>
+        <p>GPS координаты: 57.401485443,45.0846138</p>
+        <p>Режим работы: с 8.00 до 16.30</p>
+        <a href="tel.+78315835138"> <p>+7 (83158) 3-51-38</p> </a> 
+        <a href="mail.varnachleb@mts-nn.ru"> <p>varnachleb@mts-nn.ru</p> </a>
+      </div>
+      <!-- карта -->
+      <h2>Как добраться до нас?</h2>
+      <div class="map">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2b77048cc9f2e42794d3c9de900dd96a4b0a3fba42adad52a0d64aa6d17e539f&amp;width=100%25&amp;height=720&amp;lang=ru_RU&amp;scroll=true"></script>
+      </div>
+      <!-- вакансии -->
+      <div class="vacation">
+        <h3>Вакансии:</h3>
+          <a href=""><p>Пекарь</p> </a> 
+          <a href=""> <p>Грузчик</p> </a> 
+          <a href=""> <p>Формовщик</p> </a>
+      </div>
+      <h2>Мы всегда открыты к предложениям и хотим <br> получать от Вас обратную связь!</h2>
+      <p class="text-form">Наши менеджеры готовы дать ответ на любой, интересующий Вас вопрос! <br>
+        Мы готовы принять заказ на изготовление тортов на Ваше мероприятие или любой другой корпоративный заказ! <br>
+        Мы с огромной любовью относимся к каждому нашему клиенту! </p>
+      <!-- верстка формы -->
+      <form action="/" class="our-questions">
+        <p class="text-form">Напишите нам и мы с Вами свяжемся!</p>
+        <div class="contact-form__field">
+          <input type="text" class="input-field" placeholder="Ваше имя*">
+        </div>
+        <div class="contact-form__field">
+          <input type="tel" class="input-field" placeholder="Ваш телефон*">
+        </div>
+        <div class="contact-form__field">
+          <textarea class="input-field write-us " placeholder="Напишите нам"></textarea>
+        </div>
+        <div class="contact-form__footer">
+          <label class="contact-form__terms checkbox">
+            <input type="checkbox" class="checkbox__input" checked>
+            <span class="checkbox__text">Согласен(на) на обработку персональных данных</span>
+          </label> <br>
+          <button class="contact-form__submit button ">  Отправить </button>
+          
+        </div>
+      </form>
+    </div>
+    </div> 
+  <!-- подвал сайта -->
+  <footer>
+    <div class="container d-flex">
+      <div class="footer__text">
+        <p>ПРЕДПРИЯТИЯ РЯДОМ: ВАРНАВИНСКОЕ ПО, МБУ ДО ДШИ, МУП ВАРНАВИНСКАЯ ТИПОГРАФИЯ, П.О.ВАРНАВИНСКИЙ РАЙКООПЗАГОТПРОМ </p>
+        <p>НИЖЕГОРОДСКАЯ ОБЛАСТЬ, Р-Н ВАРНАВИНСКИЙ, РП ВАРНАВИНО, УЛ. ЛЕСНАЯ, Д.33 </p>
+      </div>
+      <div class="social">
+        <p class="social__text">Мы в социальных сетях</p>
+        <div class="icon d-flex">
+          <a class="ok" href="">
+            <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M87.5 77.0833C87.5 82.8375 82.8375 87.5 77.0833 87.5H22.9167C17.1646 87.5 12.5 82.8375 12.5 77.0833V22.9167C12.5 17.1625 17.1646 12.5 22.9167 12.5H77.0833C82.8375 12.5 87.5 17.1625 87.5 22.9167V77.0833Z" fill="#0288D1"/>
+              <path d="M66.4438 51.3191C64.9105 49.6462 62.8584 48.5462 60.3042 48.0024L58.8834 47.7837C60.6626 47.0337 62.0522 45.8691 63.0626 44.2753C64.0751 42.6878 64.5834 40.8837 64.5834 38.8462C64.5834 29.167 51.8834 29.167 48.8459 29.167H35.4167V70.8337H52.2063C55.0834 70.8337 57.4397 70.5691 59.3022 70.0503C61.1709 69.5253 62.8876 68.6482 64.4438 67.4232C65.7563 66.3899 66.8063 65.1024 67.5792 63.5357C68.3605 61.967 68.7501 60.1441 68.7501 58.0732C68.7501 55.242 67.9792 52.992 66.4438 51.3191ZM45.8334 37.5003H49.6292C49.6292 37.5003 54.173 37.3691 54.173 41.667C54.173 45.9649 49.7605 45.8337 49.7605 45.8337H45.8334V37.5003ZM51.9938 62.5003C50.9605 62.5441 49.098 62.517 46.3938 62.517H45.8334V52.0837H52.173C53.2751 52.1128 58.3334 51.917 58.3334 57.2087C58.3334 62.5003 53.0272 62.4628 51.9938 62.5003Z" fill="white"/>
+            </svg>            
+          </a>
+          <a class="ok" href="">
+             <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M87.5 77.0833C87.5 82.9167 82.9167 87.5 77.0833 87.5H22.9167C17.0833 87.5 12.5 82.9167 12.5 77.0833V22.9167C12.5 17.0833 17.0833 12.5 22.9167 12.5H77.0833C82.9167 12.5 87.5 17.0833 87.5 22.9167V77.0833Z" fill="#FF9800"/>
+              <path d="M56.0416 63.333C59.1666 62.708 62.0833 61.458 64.5833 59.7913C66.6666 58.5413 67.2916 55.833 66.0416 53.7497C64.7916 51.6663 62.0833 51.0413 59.9999 52.2913C53.9583 56.0413 46.0416 56.0413 39.9999 52.2913C37.9166 51.0413 35.2083 51.6663 33.9583 53.7497C32.7083 55.833 33.3333 58.5413 35.4166 59.7913C38.1249 61.458 41.0416 62.708 43.9583 63.333L35.6249 71.6663C33.9583 73.333 33.9583 76.0413 35.6249 77.9163C36.4583 78.7497 37.4999 79.1663 38.7499 79.1663C39.7916 79.1663 41.0416 78.7497 41.8749 77.9163L49.9999 69.7913L58.1249 77.9163C59.7916 79.583 62.4999 79.583 64.3749 77.9163C66.0416 76.2497 66.0416 73.5413 64.3749 71.6663L56.0416 63.333ZM49.9999 20.833C41.8749 20.833 35.4166 27.2913 35.4166 35.4163C35.4166 43.5413 41.8749 49.9997 49.9999 49.9997C58.1249 49.9997 64.5833 43.5413 64.5833 35.4163C64.5833 27.2913 58.1249 20.833 49.9999 20.833ZM49.9999 41.6663C46.4583 41.6663 43.7499 38.958 43.7499 35.4163C43.7499 31.8747 46.4583 29.1663 49.9999 29.1663C53.5416 29.1663 56.2499 31.8747 56.2499 35.4163C56.2499 38.958 53.5416 41.6663 49.9999 41.6663Z" fill="white"/>
+            </svg>   
+          </a>        
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
